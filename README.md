@@ -4,15 +4,15 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 What Each Command Should Do
 
-node liri.js concert-this <artist/band name here>
+## node liri.js concert-this <artist/band name here>
 This will search the Bands in Town Artist Events API and show information about the closest concert date.
 
-node liri.js spotify-this-song ''
+## node liri.js spotify-this-song ''
 This will show information about the song.
 
-node liri.js movie-this ''
+## node liri.js movie-this ''
 This will output information about the movie
 
-node liri.js do-what-it-says
+## node liri.js do-what-it-says
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
